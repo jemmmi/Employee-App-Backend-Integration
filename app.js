@@ -14,7 +14,7 @@ app.use(express.static(path.join(__dirname+'/dist/FrontEnd')));
 // Task2: create mongoDB connection 
 
 const mongoose=require('mongoose');
-mongoose.connect('mongodb+srv://sahla:sahlaAtlas@cluster0.2wlvq8k.mongodb.net/EmployeeDB?retryWrites=true&w=majority',
+mongoose.connect('mongodb+srv://jemsheer:jemsheerAtlas@cluster0.2wlvq8k.mongodb.net/EmployeeDB?retryWrites=true&w=majority',
 {
     useNewUrlParser:true
 });
